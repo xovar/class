@@ -1,85 +1,25 @@
 /* 
-    position: sticky; top, left, right, bottom
-    position: relative; top, left, right, bottom
-    position: absolute; top, left, right, bottom
-    position: fixed; top, left, right, bottom
+    . by name  p div =
+    . by class name .sdujsdfj ===
+    . by id name #sdfjksd   =======
+     
+    . Combinators
+        . descendant selector (space)
+        . Child Selector (>)
+        . Adjacent Sibling Selector (+)
+        . General Sibling Selector (~)
 
-    * z-index 
-
-    * line-height
-    * border-radius
-        
-*/
-
-
-/* .navbar{
-    background-color: crimson;
-    width: 100%;
-    position: absolute;
-    top: 16px;
-}
-
-.nav-menu{
-    list-style-type: none;
-    display: inline-block;
-    padding: 40px 20px;
-    cursor: pointer;
-}
-
-.nav-link{
-    text-decoration: none;
-    color: white;
-    padding: 20px 40px;
-    background-color: lime;
+    . Pseudo-classes
+        . :hover
+        . :first-child
+        . :last-child
+        . :focus
+        . :nth-child(2n)
+    . Pseudo-elements
+        . ::selection
 } */
 
-.main{
-    height: 600px;
-    width: 100%;
-}
-
-.sub-1{
+p::selection{
     color: white;
-    background-color: lime;
-    width: 200px;
-    height: 200px;
-    font-weight: 900;
-    line-height: 200px;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 40px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 2;
-}
-.sub-2{
-    color: white;
-    background-color: crimson;
-    width: 200px;
-    height: 200px;
-    font-weight: 900;
-    line-height: 200px;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 40px;
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    z-index: 3;
-}
-.sub-3{
-    color: white;
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-    font-weight: 900;
-    line-height: 200px;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 40px;
-    position: absolute;
-    top: 0px;
-    left: 60px;
-    z-index: 1;
+    background-color: orangered;
 }
