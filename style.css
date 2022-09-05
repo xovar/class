@@ -1,25 +1,52 @@
-/* 
-    . by name  p div =
-    . by class name .sdujsdfj ===
-    . by id name #sdfjksd   =======
-     
-    . Combinators
-        . descendant selector (space)
-        . Child Selector (>)
-        . Adjacent Sibling Selector (+)
-        . General Sibling Selector (~)
-
-    . Pseudo-classes
-        . :hover
-        . :first-child
-        . :last-child
-        . :focus
-        . :nth-child(2n)
-    . Pseudo-elements
-        . ::selection
-} */
-
-p::selection{
-    color: white;
-    background-color: orangered;
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column; /* column, row, column-reverse, row-reverse */
+    justify-content: flex-start; /* hr -- flex-end, flex-start, space-between, space-around, center */
+    align-items: flex-start; /* vr --  flex-end, flex-start,center  */
+    height: 100vh;
+}
+.sub-1{
+    background-color: yellow;
+    border: 1px solid lime;
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center;
+    order: 4;
+}
+.sub-2{
+    background-color: yellow;
+    border: 1px solid lime;
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center;
+    order: 2;
+}
+.sub-3{
+    background-color: yellow;
+    border: 1px solid lime;
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center;
+    order: 1;
+}
+.sub-4{
+    background-color: yellow;
+    border: 1px solid lime;
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+    line-height: 200px;
+    text-align: center;
+    order: 3;
+    align-self: flex-end;
 }
